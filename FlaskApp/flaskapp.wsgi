@@ -2,7 +2,7 @@
 import sys
 import logging
 logging.basicConfig(stream=sys.stderr)
-sys.path.insert(0, '/srv/udacity_project/FlaskApp/FlaskApp')
+sys.path.insert(0, '/srv/udacity_project/FlaskApp/')
 
 from FlaskApp import app as application
 
