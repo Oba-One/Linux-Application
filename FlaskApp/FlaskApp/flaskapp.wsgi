@@ -2,8 +2,8 @@
 import sys
 import logging
 logging.basicConfig(stream=sys.stderr)
-sys.path.insert(0, '/srv/udacity_project/flask/app')
+sys.path.insert(0, '/srv/udacity_project/FlaskApp/FlaskApp')
 
-from app import app as application
+from FlaskApp import app as application
 
 application.secret_key = 'super_secret_key'  # This needs changing in production env
